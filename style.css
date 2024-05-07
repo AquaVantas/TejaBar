@@ -1,0 +1,163 @@
+html body .navigation {
+  background-color: #fdb0c0;
+}
+html body .navigation .navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px 0;
+}
+html body .navigation .navigation-wrapper .right-side a {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+html body .cenik {
+  padding-top: 80px;
+}
+html body .cenik h2 {
+  font-size: 64px;
+  text-align: center;
+}
+html body .cenik .category-wrapper {
+  margin-top: 20px;
+}
+html body .cenik .category-wrapper h3 {
+  font-size: 36px;
+  line-height: 56px;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+html body .cenik .category-wrapper .list-wrapper .item {
+  display: flex;
+  justify-content: space-between;
+}
+html body .contact {
+  padding-top: 100px;
+}
+html body .contact .map-wrapper {
+  position: relative;
+}
+html body .contact .map-wrapper .frame-wrapper iframe {
+  width: 100%;
+}
+html body .contact .map-wrapper .frame-wrapper::before {
+  width: 50%;
+  content: " ";
+  height: 100%;
+  z-index: 2;
+  left: 0;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 25%, rgba(0, 212, 255, 0) 100%);
+  max-height: 450px;
+}
+html body .contact .map-wrapper .frame-wrapper::after {
+  width: 50%;
+  content: " ";
+  height: 100%;
+  z-index: 2;
+  right: 0;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(270deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 25%, rgba(0, 212, 255, 0) 100%);
+  max-height: 450px;
+}
+html body .contact .map-wrapper .map-information {
+  position: absolute;
+  top: 0;
+  height: 450px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html body .contact .map-wrapper .map-information .information-wrapper {
+  margin-bottom: 15px;
+}
+html body .contact .map-wrapper .map-information .information-wrapper h3 {
+  color: #fdb0c0;
+  font-size: 36px;
+  line-height: 56px;
+  margin-bottom: 5px;
+}
+html body .contact .map-wrapper .map-information .information-wrapper p {
+  margin-bottom: 2px;
+}
+html body .contact .map-wrapper .map-information .information-wrapper p a {
+  color: black;
+}
+html footer {
+  background-color: #fdb0c0;
+  height: 100%;
+  padding: 40px 0;
+}
+html footer .top-part {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+html footer .top-part .left-side .hours h4 {
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+html footer .top-part .left-side .hours .day-line {
+  display: flex;
+  justify-content: space-between;
+}
+html footer .top-part .left-side .hours .day-line div {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  margin-right: 40px;
+  font-weight: 500;
+}
+html footer .top-part .right-side {
+  display: flex;
+}
+html footer .top-part .right-side .company {
+  margin-right: 50px;
+}
+html footer .top-part .right-side .company h4 {
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+html footer .top-part .right-side .company p {
+  margin-bottom: 2px;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+}
+html footer .top-part .right-side .social-media h4 {
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+html footer .top-part .right-side .social-media a img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+html footer .bottom-part span {
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
