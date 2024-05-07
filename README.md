@@ -1,2 +1,2 @@
 # TejaBar
-Spletna stran za Teja bar
+Website for Teja bar
